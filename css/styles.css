@@ -99,8 +99,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
 }
-.header-address:hover,
-.header-address:focus {
+.header-address-item:hover,
+.header-address-item:focus {
   color: #404bbf;
 }
 .header-address-list {
