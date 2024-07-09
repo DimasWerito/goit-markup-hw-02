@@ -186,9 +186,11 @@ button {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .team-list {
   background-color: var(--primary-white-color);
+  color: #ffffff;
 }
 .team-item {
 }
@@ -218,10 +220,11 @@ button {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .portfolio-list {
 }
@@ -259,12 +262,12 @@ button {
   color: var(--primary-accent-color);
 }
 .footer-logo .accent {
-  color: var(--primary-white-color);
+  color: #f4f4fd;
 }
 .footer-text {
   font-family: var(--primary-font);
   line-height: 1.5;
-  color: var(--primary-white-color);
+  color: #f4f4fd;
   letter-spacing: 0.02em;
 }
 /* #endregion */
