@@ -87,10 +87,10 @@ button {
   color: #2e2f42;
 }
 .nav-item:hover {
-  color: var(--secondary-accent-color);
+  color: #404bbf;
 }
 .nav-item:focus {
-  color: var(--secondary-accent-color);
+  color: #404bbf;
 }
 .header-address {
   font-style: normal;
