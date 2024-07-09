@@ -99,11 +99,9 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
 }
-.header-address:hover {
-  color: var(--secondary-accent-color);
-}
+.header-address:hover,
 .header-address:focus {
-  color: var(--secondary-accent-color);
+  color: #404bbf;
 }
 .header-address-list {
 }
