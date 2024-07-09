@@ -26,6 +26,14 @@ button {
   color: currentColor;
   cursor: pointer;
 }
+.accent {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #2e2f42;
+}
 /* #endregion */
 
 /* #region Header */
@@ -36,40 +44,49 @@ button {
 }
 .nav {
 }
-.header-logo {
-  font-family: var(--second-family);
+.logo {
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--navy-blue);
-}
-.accent {
-  font-family: var(--second-family);
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--iris);
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
 }
 .nav-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-list:hover {
+  color: #404bbf;
+}
+.nav-list:focus {
+  color: #404bbf;
 }
 .nav-item {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .header-address {
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address:hover {
+  color: #404bbf;
+}
+.header-address:focus {
+  color: #404bbf;
 }
 .header-address-list {
 }
 .header-address-item {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -81,20 +98,37 @@ button {
 /* #region Hero */
 
 .hero {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 .hero-title {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 .hero-btn {
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-  background-color: var(--iris);
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.hero-btn:hover {
+  background-color: #404bbf;
+}
+hero-btn:focus {
+  background-color: #404bbf;
+}
+.body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
 }
 /* #endregion */
 
@@ -106,15 +140,13 @@ button {
 .benefits-item {
 }
 .benefits-subtitle {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .benefits-text {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -125,58 +157,51 @@ button {
 
 /* #region Team */
 .team {
-  background-color: var(--cloud);
+  background-color: #f4f4fd;
 }
 .team-title {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .team-list {
+  background-color: #ffffff;
 }
 .team-item {
 }
 .team-pic {
 }
 .team-subtitle {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .team-text {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--slate);
+  color: #434455;
 }
-/* #endregion */
-
-/* #region Portfolio */
-
 /* #endregion */
 
 /* #region Portfolio */
 .portfolio {
 }
 .portfolio-title {
-  font-family: var(--font-family);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .portfolio-list {
 }
@@ -185,19 +210,17 @@ button {
 .portfolio-pic {
 }
 .portfolio-subtitle {
-  font-family: var(--font-family);
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: var(--navy-blue);
+  color: #2e2f42;
 }
 .portfolio-text {
-  font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--slate);
+  color: #434455;
 }
 /* #endregion */
