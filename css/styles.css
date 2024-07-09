@@ -58,16 +58,6 @@ button {
 
 /* #region Header */
 
-:root {
-  --primary-font: "Roboto", sans-serif;
-  --title-font: "Raleway", sans-serif;
-  --primary-black-color: #434455;
-  --primary-white-color: #ffffff;
-  --primary-accent-color: #4d5ae5;
-  --secondary-accent-color: #404bbf;
-  --active-link-color: #f44336;
-}
-
 .header {
 }
 .header-nav {
