@@ -58,6 +58,16 @@ button {
 
 /* #region Header */
 
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --title-font: "Raleway", sans-serif;
+  --primary-black-color: #434455;
+  --primary-white-color: #ffffff;
+  --primary-accent-color: #4d5ae5;
+  --secondary-accent-color: #404bbf;
+  --active-link-color: #f44336;
+}
+
 .header {
 }
 .header-nav {
@@ -79,10 +89,6 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-list:focus,
-.nav-list:hover {
-  color: #404bbf;
-}
 .nav-item {
   font-weight: 500;
   font-size: 16px;
@@ -90,7 +96,9 @@ button {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.nav-item:hover,
+.nav-item:hover {
+  color: #404bbf;
+}
 .nav-item:focus {
   color: #404bbf;
 }
@@ -115,6 +123,7 @@ button {
   letter-spacing: 0.02em;
   color: var(--primary-black-color);
 }
+
 /* #endregion */
 
 /* #region Hero */
